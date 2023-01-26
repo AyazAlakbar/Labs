@@ -1,0 +1,41 @@
+.container{
+    width: 1500px;
+    height: 800px;
+    border-style: ridge;
+    background-color: aqua;
+}
+
+.container .container1{
+    width: 600px;
+    height: 700px;
+    border-style: ridge;
+    background-color:white;
+    border-radius: 1%;
+    margin: 35px auto;
+    padding: 20px;
+    
+}
+
+.container .box1{
+    border-style: hidden;
+    border-radius: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .box2{
+    width: 250px;
+    height: 520px;
+    border-style: hidden;
+    border-radius: 1%;
+}
+
+.container .box3{
+    border-style:hidden;
+    border-radius: 1%;
+    display: flex;
+    justify-content: center;
+    color: rgb(246, 246, 246);
+    padding: 15px;
+    
+}
