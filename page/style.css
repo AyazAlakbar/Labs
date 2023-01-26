@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 800px;
+}
+
+.container .head{
+    width: 100%;
+    height: 40px;
+    border: hidden;
+    display: flex;
+    background-color: rgb(28, 28, 53);
+    
+}
+
+.container .head .box{
+    width: 200px;
+    border: hidden;
+    margin-left: 250px;
+    margin-top: 10px;
+    
+}
+
+.container .head .list ul {
+    width: 300px;
+    border: hidden;
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    margin-left: 500px;
+    
+}
+
+.container .head .list ul li a{
+    text-decoration: none;
+}
+.container .head .list ul li{
+    list-style: none;
+}
+
+
+.container .box2{
+    width: 100%;
+    height: 300px;
+    border: none;
+    justify-content: center;
+    
+  
+    background-color: rgb(74, 74, 240);
+}
+
+.container .box2 .text{
+    width: 500px;
+    height: 80px;
+    border: hidden;
+    padding-top: 100px;
+    margin-left: 500px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.container .box2 .click{
+    width: 150px;
+    height: 50px;
+    border: hidden;
+    
+    margin-left: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container .box3{
+    width: 100%;
+    height: 250px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.container .box3 .content{
+    width: 800px;
+    border: none;
+    height: 200px;
+}
+
+.container .box3 .content ul li{
+    margin-left: 20px;
+}
+
+.container .box4{
+    width: 100%;
+    height: 250px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background-color: rgb(221, 220, 220);
+}
+.container .box4 .content{
+    width: 800px;
+    border: none;
+    height: 200px;
+}
+
+.container .box5{
+    width: 100%;
+    height: 250px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.container .box5 .content{
+    width: 800px;
+    border: none;
+    height: 200px;
+}
+
+.container .box6{
+    width: 100%;
+    height: 70px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: rgb(48, 48, 48);
+}
+.container .box6 .content{
+    width: 300px;
+    border: none;
+    height: 30px;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
